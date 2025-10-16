@@ -1,6 +1,9 @@
 **Live Demo:** https://app.myjobplace.app  
 *(This copy is for portfolio review — clean structure, no heavy setup required.)*
 ![UI Screenshot](docs/screenshot.png)
+
+> **Note:** UI is in Hebrew. API docs: `/docs` and `/redoc` on the live server.
+
 <sub>Replace `docs/screenshot.png` with an actual screenshot of the live site.</sub>
 - FastAPI backend with tidy `src/` layout
 - Health endpoints: `/health`, `/readyz`

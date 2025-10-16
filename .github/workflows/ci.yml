@@ -1,4 +1,4 @@
-name: CI (offline health)
+name: Smoke CI (health-only)
 on:
   push: { branches: [ main, presentation ] }
   pull_request: { branches: [ main, presentation ] }
