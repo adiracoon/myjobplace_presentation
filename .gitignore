@@ -19,3 +19,11 @@ build/
 data/*.sqlite
 docs/
 !docs/.gitkeep
+
+# --- presentation assets ---
+!docs/
+!docs/**
+!docs/*.png
+!docs/*.jpg
+!docs/*.jpeg
+!docs/*.webp

@@ -1,15 +1,13 @@
-**Live:** https://app.myjobplace.app &nbsp;&nbsp;•&nbsp;&nbsp; **API docs:** `/docs`, `/redoc`  
-> **Note:** the UI text is in Hebrew.
-![JobPulse UI](docs/screenshot.png)
-LinkedIn & generic boards flood you with loosely relevant roles.  
-I wanted a **tighter, precise** feed with clear filters and fast search.
-Public career pages + ATS APIs (Greenhouse, Lever, …) → one DB.  
-FastAPI backend exposes a clean API; static UI provides search & filters.
-Accurate, low-noise coverage of Israeli tech roles with dedup & smart filters.
-- FastAPI (`src/` layout) • `/health`, `/readyz`  
-- `/jobs` list / count / create / update / soft-delete (filters & paging)  
-- Alembic migrations & smoke CI (health-only)
-~~~bash
-pip install -r requirements.txt
-uvicorn jobpulse_api.main:app --app-dir src --host 127.0.0.1 --port 8010
-~~~
+**Live:** https://app.myjobplace.app  
+![Screenshot](docs/screenshot.png)
+**Why**
+Generic job boards show too many loosely relevant roles. I wanted a **precise, low-noise feed** so candidates waste less time.
+**What it is**
+An MVP that **aggregates public company career pages and ATS (e.g., Greenhouse, Lever)** into one API + simple UI with filters (title, company, location).
+**MVP scope (today)**
+- Global dataset; **not Israel-only yet**.
+- Basic browsing & filtering; no accounts, alerts, or apply flows.
+**Next**
+- Israel-focused sources and curation.
+- Better dedup/normalization across sources.
+- Saved filters / lightweight alerts (optional).
