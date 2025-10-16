@@ -1,6 +1,7 @@
-# JobPulse 🔍
 
-**A precise, low-noise job aggregator for the Israeli tech market**
+# myjobplace 🔍
+
+**A precise, low-noise job aggregator for the tech market**
 
 🔗 **Live:** [https://app.myjobplace.app](https://app.myjobplace.app)
 
