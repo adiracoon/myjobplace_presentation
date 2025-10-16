@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobPulse - משרות טכנולוגיה</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">💼 JobPulse</h1>
+                <p class="tagline">מאגר משרות מחברות הטק המובילות בעולם</p>
+            </div>
+        </header>
+        <!-- Search Bar -->
+        <div class="search-section">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="חפש משרה לפי תפקיד, חברה או מיקום..."
+                    autocomplete="off"
+                >
+                <button id="searchBtn" class="search-btn">🔍 חפש</button>
+            </div>
+            <!-- Filters -->
+            <div class="filters">
+                <select id="companyFilter" class="filter-select">
+                    <option value="">כל החברות</option>
+                </select>
+                <select id="locationFilter" class="filter-select">
+                    <option value="">כל המיקומים</option>
+                </select>
+                <button id="resetBtn" class="reset-btn">🔄 אפס</button>
+            </div>
+        </div>
+        <!-- Stats -->
+        <div class="stats" id="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="totalJobs">-</span>
+                <span class="stat-label">משרות פעילות</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="totalCompanies">-</span>
+                <span class="stat-label">חברות</span>
+            </div>
+        </div>
+        <!-- Jobs List -->
+        <div class="jobs-container" id="jobsContainer">
+            <div class="loading">טוען משרות...</div>
+        </div>
+        <!-- Pagination -->
+        <div class="pagination" id="pagination"></div>
+    </div>
+    <script src="/static/js/app.js?v=1760547208"></script>
+</body>
+</html>
