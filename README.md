@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://app.myjobplace.app">
-    <img src="docs/screenshot.png" alt="JobPulse Interface" width="860" />
+    <img src="docs/screenshot.png" alt="JobPulse Interface" width="800" />
   </a>
 </p>
 
