@@ -1,6 +1,6 @@
-**Live:** https://app.myjobplace.app
+**Live:** [https://app.myjobplace.app](https://app.myjobplace.app)
 <p align="center">
-  <a href="https://app.myjobplace.app">
+  <a href="[https://app.myjobplace.app](https://app.myjobplace.app)">
     <img src="docs/screenshot.png" alt="JobPulse UI" width="900" />
   </a>
 </p>
